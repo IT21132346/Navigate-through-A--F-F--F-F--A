@@ -20,7 +20,6 @@ public class Fragment1 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         Toast.makeText(getActivity(),"This is Fragment ONE",Toast.LENGTH_SHORT).show();
-        Toast.makeText(getActivity(), "This the main Activity", Toast.LENGTH_SHORT).show();
 
         View view = inflater.inflate(R.layout.fragment_1, container, false);
         btnFeagment2 = view.findViewById(R.id.btngotofragment2);
